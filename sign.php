@@ -93,8 +93,6 @@ error_reporting(0);
           <input id="icon_prefix" type="text" name="address" class="validate" required>
           <label for="icon_prefix">Address</label>
         </div>
-
-
 <?php require 'includes/signupconfirmation.php'; ?>
             <div class="center-align">
                 <button type="submit" id="confirmed" name="signup" class="btn meh button-rounded waves-effect waves-light ">Sign up</button>
@@ -129,7 +127,6 @@ error_reporting(0);
                <div class="center-align">
                    <button type="submit" name="login" class="btn button-rounded waves-effect waves-light ">Login</button>
                </div>
-
        </form>
      </div>
         </div>
