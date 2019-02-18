@@ -1,9 +1,8 @@
 # Smartshop
-An e-commerce php/mysql website built from scratch to get started with as a starter template
-
+Please change you path or update your path of signin in products.php on line 101
 <h5> Super admin </h5> 
 
-email : ismailghallou@hotmail.com<br>
+email : tabishzaman9@gmail.com.com<br>
 password : ismail
 
 <h5>  some users </h5> 
