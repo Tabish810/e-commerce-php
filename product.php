@@ -98,7 +98,7 @@ $id_product =$_GET['id'];
             if (isset($_POST['buy'])) {
 
                if (!isset($_SESSION['logged_in'])) {
-                 echo "<meta http-equiv='refresh' content='0;url=http://localhost/Smartshop/sign' />";
+                 echo "<meta http-equiv='refresh' content='0;url=http://localhost/Smartshop-master/Smartshop-master/sign' />";
                }
 
                else {
@@ -120,12 +120,11 @@ $id_product =$_GET['id'];
                  $connection->close();
                  }
                 }
-
             ?>
 
-       <div class="center-align">
-           <button type="submit" name="buy" class="btn-large meh button-rounded waves-effect waves-light ">Add to Cart</button>
-       </div>
+          <div class="center-align">
+              <button type="submit" name="buy" class="btn-large meh button-rounded waves-effect waves-light ">Add to Cart</button>
+          </div>
        </div>
         </form>
      </div>
